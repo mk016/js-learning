@@ -4,3 +4,4 @@ var accountPasswrod= "1234567"
 accountCity = " jaipur"
 
 
+console.log([accountEmail,accountId,accountPasswrod]);
