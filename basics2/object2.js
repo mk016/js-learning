@@ -39,3 +39,42 @@ console.log(Object.values(tinderUser))
 
 
 //console.log(tinderUser.hasownPoperty('isLoggedIn'))
+
+
+
+const course = {
+    courseName : " js in hindi ",
+    coursePrice : "9999",
+    courseInstructor : " Maehendra Kumawat"
+}
+
+const {courseInstructor : Instructor } = course
+//console.log(course.courseInstructor);
+console.log(Instructor);
+
+
+// de-structure object  in react 
+
+/*const navbar = ( {company }) =>  { 
+      
+}
+ navbar(company = " Mahendra ")
+
+ console.log(navbar)
+
+*/
+
+/*
+{
+    Name : "Mahendra",
+    courseName : " javaScript",
+    "price" : "9999"
+}
+*/
+
+
+[
+    {},
+    {},
+    {},
+]
