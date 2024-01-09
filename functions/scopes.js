@@ -4,8 +4,15 @@ let a = 200
      let a = 10
     const b = 20 
    //console.log("Inner :",a)
+   var c = 30;
+    
+}
 
- } 
+console.log(a); // Throws Error
+console.log(b); // Throws Error
+console.log(c); // print : 30 
+
+
 
  //console.log(a)
 
@@ -36,7 +43,7 @@ if(true){
 
 
 
-//-------------------------------------------------------------------
+//------------------------------ Interesting Topic -------------------------------------
 
 
 
@@ -47,6 +54,8 @@ function addone(num){
 addone(5)
 
 console.log(addone(5))
+
+
 const addTwo = function(num){
     return num + 2 
 }

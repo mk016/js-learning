@@ -1,3 +1,9 @@
+
+//-------------------  Objects -----------------------
+
+// objects are a fundamental data type that allows you to store and organize data using key-value pairs
+
+
 //singleton
 //Object.create
 

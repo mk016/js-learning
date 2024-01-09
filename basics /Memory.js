@@ -1,4 +1,4 @@
-// Stack (Primitive ) , Heap (Non-primitive)
+// Stack (Primitive ) 
 
 let myYoutubename = "Developer_Mahendra"
 let anothername = myYoutubename
@@ -6,6 +6,10 @@ anothername = "CodewithMahendra"
 
 console.log(myYoutubename)
 console.log(anothername)
+
+
+// Heap (Non-primitive)
+
 
 let user= {
 

@@ -50,3 +50,5 @@ const addTwo = (num1, num2) => ({ username :"Mahendra"}) // print Object
 
 console.log(addTwo(4,6))
 
+
+
