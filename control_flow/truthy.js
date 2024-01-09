@@ -49,7 +49,8 @@ true //output
 
 let val1 ;
 //val1 = 5 ?? 2
-//val1 = null ?? 10
+//val1 = null ?? 10 // when given 1st value is null and undefined then program caputure second value 
+
 //val1 = undefined ?? 10
 
 val1 = null ?? 10 ?? 5
@@ -58,3 +59,11 @@ val1 = null ?? 10 ?? 5
 
 
 console.log(val1)
+
+// Terniary Operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100 
+iceTeaPrice >= 80 ? console.log("less than 80") : console.log(" more than 80")
+
