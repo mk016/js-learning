@@ -36,3 +36,31 @@
 
  
 
+----------------------------------------------------------------------------------------------
+
+NORMAL INFORMATION 
+
+-> javascript 
+         
+         1.synchronous // one by one code Execution
+         2.single threded // they both are a  defualt javascript
+
+
+-> Execution context
+
+   Execution one line of code at a time 
+
+               each operation waits for the last one to complete before executing 
+
+   console log -1 
+   console log -2 
+
+
+
+
+   Blocking code vs Non Blocking code 
+
+   Blocking code = block the flow of progrma -> read file sync
+   Non Blocking code =  Does not block Execution -> read file Async
+
+
