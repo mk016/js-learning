@@ -16,7 +16,7 @@ Document
             └── Element (p)
                 └── Text node ("This is a simple example of the DOM structure.")
             └── Element (ul)
-                └── Element (li)
+        '        └── Element (li)
                     └── Text node ("Item 1")
                 └── Element (li)
                     └── Text node ("Item 2")
