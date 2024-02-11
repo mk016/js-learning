@@ -22,7 +22,7 @@ while(arr <myArray.length){
 
 // do while loop
 
-// first print value then check conditon
+// first print value then check conditon..
 let score = 22
 
 do {
