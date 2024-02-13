@@ -9,6 +9,7 @@ window.addEventListener('keydown', (e) => {
       <th>Keycode</th> 
       <th>Code</th>
     </tr>
+    
     <tr>// this tage use for making table
       <td>${e.key === ' ' ? 'Space' : e.key}</td>
       <td>${e.keyCode}</td>
