@@ -16,5 +16,6 @@ td {
 .color {
   color: aliceblue;
   display: flex;
+ 
   flex-direction: row;
 }
