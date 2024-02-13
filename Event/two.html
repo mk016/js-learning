@@ -7,9 +7,12 @@
     <title>htnml Events </title>
 </head>
 
-<body style="background-color: yellow ; color : red;">
+<body style="background-color: rgb(134, 154, 241) ; color : rgb(11, 17, 15);">
     <h1> hello my name is Mahendra </h1>
+
+    <button id="start">start</button>
     <button id="stop">stop</button>
+
 
 </body>
 
@@ -29,12 +32,25 @@
     const changeText = function () {
         document.querySelector('h1').innerHTML = "Mahendra"
     }
-    const changeMe = setTimeout(changeText, 2000) // this programe change the h1 nanme in 2 second 
 
+    const sayDate = function(str){
+        console.log(str,Date.now());
+    }
+    setInterval(sayDate, 1000, "hiii Baby")
+    document.querySelector('#start').addEventListener('click', function () { 
+        changeMe = setTimeout(changeText, 4000); // this programe change the h1 nanme in 2 second 
+
+        clearTimeout(changeMe)
+        console.log("STSRTED")
+    }
+
+    )
     document.querySelector('#stop').addEventListener('click', function () {
         clearTimeout(changeMe)
         console.log("STOPPED")
+
     })
+
 </script>
 
 </html>
