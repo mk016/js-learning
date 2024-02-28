@@ -12,3 +12,9 @@ promiseOne.then(function(){
     console.log("Promise consumed");//  jab hmm resolve function ko call karte h tab vo then se connect hota h 
 
 })
+
+new Promise(function(resolve, reject){
+    setTimeout(function(){
+
+    },1000)
+})
