@@ -21,8 +21,8 @@
         if (xhr.readyState === 4) {
             const data = JSON.parse(this.responseText)
             console.log(typeof data);
-            console.log(data.followers);
-        }
+            console.log(data.followers); // this is show the our github follower using url(api)
+        } 
     }
     xhr.send();
 </script>
