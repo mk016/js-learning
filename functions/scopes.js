@@ -30,6 +30,7 @@ console.log(c); // print : 30
 one()
 
 
+
 if(true){
     const username = "MAHENDRA"
     if(username === "MAHENDRA"){

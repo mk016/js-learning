@@ -25,6 +25,7 @@ function addTwoNumbers(number1 , number2){
     return result
 }
 
+
 addTwoNumbers(4,6)
 addTwoNumbers(5, "a")
 

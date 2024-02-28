@@ -10,6 +10,7 @@ if (userEmail){
 
 }
 
+
 // falsy values 
 
 //false , o , -0 , bigInt on , "" , null , undefined , NaN

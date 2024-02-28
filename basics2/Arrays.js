@@ -10,6 +10,7 @@ let numbers = [1, 2, 3, 4, 5];
 let fruit = ["tamater", "banana", "aalu"];
 
 
+
 const myArr = [ 9,5,5,4,2,2]
 
 const myArr2 = new Array(1,3,4,5,6)

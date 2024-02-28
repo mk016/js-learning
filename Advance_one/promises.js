@@ -124,5 +124,6 @@ async function getAllUser() {
     })
     .catch((error)=> console.log(error))
 
+    
     //promise.all
     //yes this is also availabale, 

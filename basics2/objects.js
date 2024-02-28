@@ -17,6 +17,7 @@ const JsUser = {
     email: "user@emil.com",
 }
 
+
 console.log(JsUser.email)
 console.log(JsUser["email"])
 

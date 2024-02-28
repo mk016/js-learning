@@ -8,6 +8,7 @@
 // }
 
 
+
 const month = 3// also user string value " March " but  " mar"
 
  switch (month) {

@@ -26,6 +26,7 @@ handleObject({
 })
 */
 
+
 const myNewArray  = [ 300, 599,444,5655]
 
 function returnSecondValue(getArray){
