@@ -13,8 +13,21 @@ promiseOne.then(function(){
 
 })
 
-new Promise(function(resolve, reject){
+new Promise(function(resolve, reject){ // this is second promise
     setTimeout(function(){
-
+        console.log("Async task 2 ");
+        resolve()
     },1000)
+}).then(function(){
+    console.log('Async 2 reolved');
+})
+
+const promiseThree = new promise(function(resolve, reject){
+    setTimeout(function(){
+        resolve({username : "Mahendra", email : "mahendra@gamil.com"})
+    },1000)
+})
+
+promiseThree.then(function(user){
+    console.log(user);
 })
