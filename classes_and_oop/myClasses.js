@@ -49,3 +49,6 @@ const tea  = new User (" tea", "Tea@gamil.com" ," 1234")
 // Log the result of calling encryptPassword and changeUsername on 'tea'
 console.log(tea.encryptPassword());
 console.log(tea.changeUsername());
+
+
+// All Program is working but user is alradey define so first i comments out upper proram then i use seconde behinde the seen program 
