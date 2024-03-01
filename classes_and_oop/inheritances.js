@@ -39,3 +39,4 @@ masalaChai.logMe()
 
 // Check if 'chai' is an instance of User
 console.log(chai instanceof User);
+
