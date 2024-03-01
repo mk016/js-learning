@@ -69,4 +69,24 @@ Teacher.__proto__ = User
 
 // modern syntax 
 
-Object.ser
+// Set the prototype of teachingSuppoert to be Teacher, so teachingSuppoert inherits properties from Teacher
+Object.setPrototypeOf(teachingSuppoert, Teacher)
+
+// Define a string variable anotherUsername
+let anotherUsername = "Mahendra_coder"
+
+// Add a method Truelenght to the String prototype to log the trimmed string and its length
+String.prototype.Truelenght = function(){
+    console.log(`${this}`);
+    console.log(`True length is : ${this.trim().length}`);
+}
+
+// Call the Truelenght method on the anotherUsername string
+anotherUsername.Truelenght()
+
+// Call the Truelenght method on the "Mahendra" string literal
+"Mahendra".Truelenght()
+
+// The following line is commented out due to a syntax error
+// Call the Truelenght method on the "icecrime" string literal
+//"icecrime".Truelenght()
