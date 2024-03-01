@@ -4,29 +4,37 @@ let Mychannel = "Developer_Mahendra";
 console.log(Myname.length); // length property user for checkig the lenght of given string
 console.log(Mychannel.Truelenght); // Truelenght is count real lenght not count spaces
 
+// Define an array called Heros with two elements: "thor" and "SuperMan"
+let Heros = ["thor", "SuperMan"];
 
-let Heros = [ "thor"," SuperMan"]
-
+// Define an object called heroPower with properties for "thor" and "SuperMan",
+// and a method getSuperPower that logs the superpower of SuperMan
 let heroPower = {
-    thor : "hammer",
-    SuperMan : "Power",
+    thor: "hammer",
+    SuperMan: "Power",
 
-    getSuperPower :function (){
-        console.log( `superPower is ${this.SuperMan}`);
+    getSuperPower: function () {
+        console.log(`superPower is ${this.SuperMan}`);
     }
 }
 
-Object.prototype.Mahendra = function(){
+// Add a method Mahendra to the Object.prototype so that all objects
+// (including heroPower and arrays like Heros) can call this method
+Object.prototype.Mahendra = function () {
     console.log(`Mahendra is present in all objects`);
 }
 
-Array.prototype.heyMahendra = function(){
+// Add a method heyMahendra to the Array.prototype so that all arrays
+// (including Heros) can call this method
+Array.prototype.heyMahendra = function () {
     console.log(` Mahendra says Hello`)
 }
 
+// Call the Mahendra method on the heroPower object and the Heros array
 heroPower.Mahendra();
 Heros.Mahendra();
-//heroPower.heyMahendra();
+
+// Call the heyMahendra method on the Heros array
 Heros.heyMahendra();
 
 
