@@ -11,7 +11,7 @@ function SetUsername(username){
 function createUser(username, email, password){
     // Call the SetUsername function with the provided username
     // Note: Since SetUsername is not a constructor, 'this' inside it refers to the global object (window in browser, global in Node.js) or undefined in strict mode
-    SetUsername(username)
+    SetUsername.call(username)// call using for holding the value 
 
     // Assign the email and password parameters to properties of the 'this' object
     // Note: 'this' here refers to the global object, not the 'this' of the createUser function
