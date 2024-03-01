@@ -40,26 +40,32 @@ Heros.heyMahendra();
 
 // Inherirtance 
 
+// Define an object User representing a user with a Name and Email
 const User = {
-    Name : "chai",
-    Email : "mahendra@google.com"
+    Name: "chai",
+    Email: "mahendra@google.com"
 }
 
- const Teacher = {
-     makeVideo : true
- }
+// Define an object Teacher representing a teacher with a makeVideo property
+const Teacher = {
+    makeVideo: true
+}
 
- const teachingSuppoert = {
-    isAvailable :false
- }
+// Define an object teachingSuppoert representing a teaching support with an isAvailable property
+const teachingSuppoert = {
+    isAvailable: false
+}
 
- const TASupport = {
-    makeAssignment : 'Js assignment',
-    fullTime : Ture,
+// Define an object TASupport representing a TA support with a makeAssignment property, fullTime property, and inheriting from teachingSuppoert
+const TASupport = {
+    makeAssignment: 'Js assignment',
+    fullTime: true,
     __proto__: teachingSuppoert
- }
+}
 
- Teacher.__proto__ = User
+// Set the prototype of Teacher to be User, so Teacher inherits properties from User
+Teacher.__proto__ = User
+
 
 // modern syntax 
 
