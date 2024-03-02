@@ -16,6 +16,7 @@ let heroPower = {
     getSuperPower: function () {
         console.log(`superPower is ${this.SuperMan}`);
     }
+    
 }
 
 // Add a method Mahendra to the Object.prototype so that all objects
