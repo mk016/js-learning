@@ -1,31 +1,31 @@
+// Define a class called User
 class User {
-    // Constructor method that initializes a new User instance with a username
-    constructor(username){
-        this.username  = username; // Assigning the passed username to the instance's username property
+    // Constructor function that takes a username parameter
+    constructor(username) {
+        this.username = username; // Set the username property of the User instance
     }
 
-    // Method to log the username of the instance
-    logMe(){
-        console.log(`username: ${this.username}`);
-    }
-
-    // Static method that creates and returns an ID (in this case, a hardcoded value for demonstration)
-    static createId(){
-        return `234`;
+    // Getter method to generate an ID for the user
+    get createId() {
+        // Return a unique ID based on the username
+        return `${this.username}_${Math.floor(Math.random() * 10000)}`;
     }
 }
 
-const mahendra = new User(`mahendra`)
-//console.log(mahendra.createId)
+// Create an instance of the User class with the username 'mahendra'
+const mahendra = new User('mahendra');
 
+// Define a class called Teacher that extends User
 class Teacher extends User {
-    constructor(username, email){
-        super(username)
-        this.email = email
+    // Constructor function that takes username and email parameters
+    constructor(username, email) {
+        super(username); // Call the constructor of the superclass with the username
+        this.email = email; // Set the email property of the Teacher instance
     }
 }
 
-const iphone  = new Teacher ("iphone" , "iphone@gmail.com")
-console.log(iphone.createId)
+// Create an instance of the Teacher class with the username 'iphone' and email 'iphone@gmail.com'
+const iphone = new Teacher('iphone', 'iphone@gmail.com');
 
-
+// Print the ID of the 'iphone' user
+console.log(iphone.createId);
