@@ -15,7 +15,7 @@ let heroPower = {
     getSuperPower :function (){
         console.log( `superPower is ${this.SuperMan}`);
     }
-}
+}// this is calling using
 
 Object.prototype.Mahendra = function(){
     console.log(`Mahendra is present in all objects`);
