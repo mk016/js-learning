@@ -11,6 +11,7 @@ let heroPower = {
     thor : "hammer",
     SuperMan : "Power",
 
+
     
     getSuperPower :function (){
         console.log( `superPower is ${this.SuperMan}`);
